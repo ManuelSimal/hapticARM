@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="s,S">
+
+</language>
+<language name="C Source File">
+<includepath workspace_path="true">/${ProjName}/YetiOS/Cpu/STM32L4/Common/CMSIS/DSP/Include</includepath>
+<includepath workspace_path="true">/${ProjName}/YetiOS/Cpu/STM32L4/Common/Tracealycer/Inc</includepath>
+<includepath workspace_path="true">/${ProjName}/YetiOS/Cpu/STM32L4/Common/CubeMX_Init/Inc</includepath>
+<includepath workspace_path="true">/${ProjName}/YetiOS/Cpu/STM32L4/Common/STM32_USB_Device_Library/Inc</includepath>
+<includepath workspace_path="true">/${ProjName}/YetiOS/Cpu/STM32L4/Common/FreeRTOS_Port</includepath>
+<includepath workspace_path="true">/${ProjName}/YetiOS/Cpu/STM32L4/Common/CMSIS/Device/ST/STM32L4xx/Include</includepath>
+<includepath workspace_path="true">/${ProjName}/YetiOS/Cpu/STM32L4/Common/CMSIS/Include</includepath>
+<includepath workspace_path="true">/${ProjName}/YetiOS/Cpu/STM32L4/Common/STM32L4xx_HAL_Driver/Inc</includepath>
+<includepath workspace_path="true">/${ProjName}/YetiOS/Cpu/STM32L4/Common</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Core</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Core/Inc</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Core/FreeRTOS/Inc</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Platform</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Platform/Heimdall</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Platform/Heimdall/Inc</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Apps</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Apps/Inc</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Net</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Net/Inc</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Net/Inc/phyLayer/radioDrivers/spirit1</includepath>
+<includepath workspace_path="true">/YetiOS_STM32/YetiOS/Net/Inc/phyLayer/radioDrivers/cc2500</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="s,S">
+
+</language>
+<language name="C Source File">
+<macro>
+<name>STM32</name><value/>
+</macro>
+<macro>
+<name>STM32L4</name><value/>
+</macro>
+<macro>
+<name>DEBUG</name><value/>
+</macro>
+<macro>
+<name>STM32L476RETx</name><value/>
+</macro>
+<macro>
+<name>USE_HAL_DRIVER</name><value>1</value>
+</macro>
+<macro>
+<name>STM32L476xx</name><value/>
+</macro>
+<macro>
+<name>ARM_MATH_CM4</name><value/>
+</macro>
+<macro>
+<name>__FPU_PRESENT</name><value>1</value>
+</macro>
+<macro>
+<name>CONFIG_SELECTED_PLATFORM</name><value>HEIMDALL_PLATFORM</value>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+</cdtprojectproperties>
