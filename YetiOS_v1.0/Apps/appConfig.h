@@ -110,11 +110,16 @@
 #endif
 
 /* Enable msimal's Test App configuration*/
-#define TEST_ROTATION_V2	1
+#define TEST_ROTATION_V2	0
 #if TEST_APPggpqqp
 #include "testAppConf.h"
 #endif
 
+/* Enable msimal's Test App configuration*/
+#define TEST_APP_FINAL	1
+#if TEST_APPggpqqp
+#include "testAppConf.h"
+#endif
 
 /* Enable msimal's Test App configuration*/
 #define SERIAL_IMU_APPLICATION	0
