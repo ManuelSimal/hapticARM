@@ -9,4 +9,6 @@ Dentro de este sistema operativo, se ha trabajado a dos niveles. En primer lugar
 
 Por otro lado, se ha diseñado una librería de operaciones con cuaterniones (quatOps) junto con una aplicación (testRotationV1.c) para determinar la orientación del dispositivo. Estos archivos están agrupados en la carpeta Apps/. 
 
-Por último, se han realizado algunas pruebas para verificar la correcta implementación de todas las herramientas diseñadas. Para ello, se han diseñado dos apps (incluidas en la carpeta Apps/). La primera de ellas (testUnity2.c) sirve para enviar los datos al motor gráfico Unity. La segunda (testAppFinal.c) permite la interacción del dispositivo con una réplica de un entorno real.
+Por último, se han realizado algunas pruebas para verificar la correcta implementación de todas las herramientas diseñadas. Para ello, se han diseñado dos apps. La primera de ellas (testUnity2.c) sirve para enviar los datos al motor gráfico Unity. La segunda (testAppFinal.c) permite la interacción del dispositivo con una réplica de un entorno real.
+
+La carpeta Unity_code contiene el código necesario para la transmisión de los datos de la IMU de la placa al programa Unity. De esta forma, es posible representar el movimiento de la misma en un entorno virtual.
